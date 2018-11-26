@@ -1,0 +1,3 @@
+import datetime
+input_date = datetime.date(2018, 10, 26) #year, month, day
+print ("The day of the week is", input_date.strftime("%A"))
