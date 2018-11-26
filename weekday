@@ -1,3 +1,4 @@
 import datetime
-input_date = datetime.date(2018, 10, 26) #year, month, day
+#Enter any date in any valid datetime format below:
+input_date = datetime.date(2018, 10, 26) #here the date entered is year, month, day format
 print ("The day of the week is", input_date.strftime("%A"))
